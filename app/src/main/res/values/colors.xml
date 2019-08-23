@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#9fd4e9</color>
+    <color name="colorPrimaryDark">#57a1af</color>
+    <color name="colorAccent">#298dbc</color>
+
+    <color name="gray_100">#f9f9f9</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#cccaca</color>
+    <color name="gray_medium">#c1c2c6</color>
+    <color name="gray_500">#b7b7b7</color>
+    <color name="gray_600">#9E9E9E</color>
+    <color name="gray_700">#7f847f</color>
+    <color name="gray_800">#696969</color>
+    <color name="gray_900">#454545</color>
+    <color name="green_basic">#23B96B</color>
+    <color name="green_light">#D9F4E5</color>
+    <color name="green_dark">#18B661</color>
+    <!--show case 1-->
+    <color name="pure_white">#ffffff</color>
+    <color name="text_color">#383838</color>
+    <color name="pure_black">#000000</color>
+    <color name="white_300">#f9f9ff</color>
+    <!--show  case 2-->
+    <color name="about_purple">#FF736bfb</color>
+    <color name="about_text">#dad9ef</color>
+    <color name="about_background">#f4f6fa</color>
+    <!--show  case 3-->
+    <color name="login_background2">#464b58</color>
+    <color name="blue_login1">#008fff</color>
+    <color name="blue_login2">#0372c9</color>
+    <color name="shaow_black">#ff30343f</color>
+    <color name="red_error_color">#e5697d</color>
+    <!--show case 4-->
+    <color name="slide_background">#eef2f1</color>
+    <color name="slide_background3">#eceeed</color>
+    <color name="search_background">#f9e4e6e6</color>
+    <color name="icon_color">#66cf90</color>
+    <color name="base_color_sw3">#3dd684</color>
+
+    <!--show case 5-->
+    <color name="sw5_colorPrimary">#313b99</color>
+    <color name="sw5_colorAccent">#d77272</color>
+    <color name="sw5_colorPrimaryDark">#28307b</color>
+    <color name="sw5_baseColor">#26519f</color>
+    <color name="sw6_backGround">#ecf1f4</color>
+
+    <!--show case 6-->
+    <color name="sw6_colorPrimary">#03b875</color>
+    <color name="sw6_colorPrimaryDark">#01a166</color>
+    <color name="sw6_colorAccent">#7dd8b7</color>
+
+    <color name="sw7_colorPrimary">#6b80f5</color>
+    <color name="sw7_colorPrimaryDark">#7649a4</color>
+    <color name="sw7_colorAccent">#ff79b1</color>
+    <color name="sw7_colorAccent1">#fa79bb</color>
+    <color name="sw7_colorAccent2">#fa7a84</color>
+    <color name="sw7_textColor">#81889d</color>
+    <color name="tabUnselsw8">#b6b4ef</color>
+    <color name="tabSelsw8">#a2eefb</color>
+</resources>

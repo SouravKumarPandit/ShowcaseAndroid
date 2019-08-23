@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowRectLayout">
+        <attr name="roundCornerRadius" format="float" />
+        <attr name="shadowRectColor" format="color" />
+        <attr name="shadowPadding" format="dimension" />
+        <attr name="offsetX" format="float" />
+        <attr name="offsetY" format="float" />
+        <attr name="baseColor" format="color" />
+        <attr name="imgGradientColor1" format="color" />
+        <attr name="imgGradientColor2" format="color" />
+        <attr name="shadowRadius" format="dimension" />
+        <attr name="imgBackground" format="integer" />
+        <attr name="shadow_left" format="boolean" />
+        <attr name="shadow_Right" format="boolean" />
+        <attr name="shadow_bottom" format="boolean" />
+        <attr name="shadow_Top" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SmartEditText">
+
+        <attr name="ic_delete" format="reference" />
+        <attr name="delete_x" format="integer" />
+        <attr name="delete_y" format="integer" />
+        <attr name="delete_width" format="integer" />
+        <attr name="delete_height" format="integer" />
+
+        <attr name="ic_left_click" format="reference" />
+        <attr name="ic_left_unclick" format="reference" />
+        <attr name="left_x" format="integer" />
+        <attr name="left_y" format="integer" />
+        <attr name="left_width" format="integer" />
+        <attr name="left_height" format="integer" />
+
+        <attr name="lineColor_click" format="color" />
+        <attr name="lineColor_unclick" format="color" />
+        <attr name="linePosition" format="integer" />
+
+        <attr name="cursor" format="reference" />
+
+    </declare-styleable>
+    <declare-styleable name="SimpleHomeGrid">
+        <attr name="separatorWidth" format="dimension" />
+        <attr name="separatorColor" format="color" />
+        <attr name="numColumns" format="integer" />
+        <attr name="numRows" format="integer" />
+        <attr name="lineSeparate" format="float" />
+        <attr name="isOutlineBoxed" format="boolean" />
+        <attr name="isTabmatter" format="boolean" />
+
+    </declare-styleable>
+    <declare-styleable name="DoubleImageView">
+        <attr name="android:drawableLeft" />
+        <attr name="android:drawableRight" />
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:spacing" />
+    </declare-styleable>
+    <declare-styleable name="CalenderPagerView">
+        <attr name="headerTextColorCV" format="color" />
+        <attr name="headerTextSizeCV" format="float" />
+        <attr name="dateTextColorCV" format="color" />
+        <attr name="dateTextSizeCV" format="float" />
+        <attr name="selectBackColorCV" format="color" />
+        <attr name="selectTextColorCV" format="color" />
+        <attr name="selectTextSizeCV" format="float" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_dark</item>
+        <item name="colorPrimaryDark">@color/green_basic</item>
+        <item name="colorAccent">@color/base_color_sw3</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:typeface">serif</item>
+        <!--<item name="android:textViewStyle">@style/RobotoTextViewStyle</item>-->
+        <!--<item name="android:buttonStyle">@style/RobotoButtonStyle</item>-->
+    </style>
+
+
+    <style name="CollapsingTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/sw5_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/sw5_colorPrimaryDark</item>
+        <item name="colorAccent">@color/sw5_colorAccent</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="CleanTapTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/sw6_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/sw6_colorPrimary</item>
+        <item name="colorAccent">@color/sw6_colorAccent</item>
+        //for setting the activity full screen over the activity or action bar over lay
+        <item name="android:windowActionBarOverlay">true</item>
+        //full screen no status bar
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColorHint">@color/sw6_colorPrimary</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBarWhite">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+<style name="AboutTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/pure_white</item>
+    <item name="colorPrimaryDark">@color/pure_white</item>
+    <item name="colorAccent">@color/pure_black</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <!--<item name="android:windowTranslucentStatus">true</item>-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+
+</style>
+    <style name="SingUpTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/login_background2</item>
+    <item name="colorPrimaryDark">@color/login_background2</item>
+    <item name="colorAccent">@color/pure_white</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+
+</style>
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/sw7_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/sw7_colorPrimaryDark</item>
+        <item name="colorAccent">@color/sw7_colorAccent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        //µ for setting the activity full screen over the activity or action bar over lay
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="EditTextHint" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorHint">@color/sw6_colorPrimary</item>
+        <item name="colorControlNormal">@color/sw6_colorPrimary</item>
+        <item name="colorControlActivated">@color/sw6_colorPrimary</item>
+        <item name="colorControlHighlight">@color/sw6_colorPrimary</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="CollapsingTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" />
+
+    <style name="CollapsingTextAppearance.Inverse"><item name="android:textSize">30sp</item></style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
