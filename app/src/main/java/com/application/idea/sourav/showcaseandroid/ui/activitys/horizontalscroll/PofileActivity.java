@@ -1,4 +1,4 @@
-package com.application.idea.sourav.showcaseandroid.ui.activitys;
+package com.application.idea.sourav.showcaseandroid.ui.activitys.horizontalscroll;
 
 import android.app.Activity;
 import android.graphics.Color;

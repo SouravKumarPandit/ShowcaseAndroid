@@ -78,4 +78,23 @@
  <item name="item_designation" type="id" />
  <item name="snack_bar_done" type="id" />
     <item name="style_holder" type="id" />
+    <item name="frame_layout" type="id" />
+ <item name="profile_frame_layout" type="id" />
+ <item name="profile_appbarlayout" type="id" />
+ <item name="profile_home_toolbar" type="id" />
+ <item name="profile_details_layout" type="id" />
+ <item name="profile_action_layout" type="id" />
+ <item name="profile_contact_info_layout" type="id" />
+ <item name="mark_as_active" type="id" />
+ <item name="profile_reset_pwd" type="id" />
+ <item name="disconnect_users" type="id" />
+ <item name="profile_image" type="id" />
+ <item name="profile_name" type="id" />
+ <item name="profile_company_name" type="id" />
+ <item name="profile_designation" type="id" />
+ <item name="profile_last_seen" type="id" />
+ <item name="profile_phone" type="id" />
+ <item name="profile_email" type="id" />
+ <item name="profile_address" type="id" />
+ <item name="edit_user" type="id" />
 </resources>

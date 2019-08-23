@@ -92,14 +92,14 @@ public class ShowcaseAdapter extends RecyclerView.Adapter<ShowcaseAdapter.Adapte
 
         LinearLayout.LayoutParams cltxtParam = new LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 6);
 
-        TextView clCustomerName = new TextView(clContext);
-        clCustomerName.setGravity(Gravity.CENTER_VERTICAL);
-        clCustomerName.setLayoutParams(cltxtParam);
-        clCustomerName.setTextColor(clContext.getResources().getColor(R.color.gray_700));
-        clCustomerName.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
-        clCustomerName.setPadding(5, 0, 0, 0);
-        clCustomerName.setId(R.id.customer_name);
-        clCustomerName.setText("Customer");
+        TextView className = new TextView(clContext);
+        className.setPadding(Utils.dpToPixel(10),0,0,0);
+        className.setGravity(Gravity.CENTER_VERTICAL);
+        className.setLayoutParams(cltxtParam);
+        className.setTextColor(clContext.getResources().getColor(R.color.gray_700));
+        className.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+        className.setId(R.id.customer_name);
+        className.setText("class");
 
         LinearLayout clVisitLayout = new LinearLayout(clContext);
         clVisitLayout.setOrientation(LinearLayout.HORIZONTAL);
@@ -135,7 +135,7 @@ public class ShowcaseAdapter extends RecyclerView.Adapter<ShowcaseAdapter.Adapte
         clVisitLayout.setBackground(clContext.getResources().getDrawable(R.drawable.visit_button));
         clVisitLayout.addView(clVisittxt);
         clVisitLayout.addView(imgArrow);
-        clCustomerInfo.addView(clCustomerName);
+        clCustomerInfo.addView(className);
         clCustomerInfo.addView(clVisitLayout);
         return clCustomerInfo;
     }

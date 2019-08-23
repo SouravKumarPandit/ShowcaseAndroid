@@ -10,10 +10,12 @@ import android.widget.Toast;
 import com.application.idea.sourav.showcaseandroid.R;
 import com.application.idea.sourav.showcaseandroid.models.ShowcaseClassDTO;
 import com.application.idea.sourav.showcaseandroid.ui.activitys.*;
+import com.application.idea.sourav.showcaseandroid.ui.activitys.horizontalscroll.HorizontalScrollActivity;
 import com.application.idea.sourav.showcaseandroid.ui.activitys.infoAbout.AboutActivity;
 import com.application.idea.sourav.showcaseandroid.ui.activitys.inlineSelection.ScrollSelectorActivity;
 import com.application.idea.sourav.showcaseandroid.ui.activitys.inputStyleEditor.InputStyleEditorActivity;
 import com.application.idea.sourav.showcaseandroid.ui.activitys.loginSignp.LoginSingUpActivity;
+import com.application.idea.sourav.showcaseandroid.ui.activitys.profileDetails.ProfileDetailsActivity;
 import com.application.idea.sourav.showcaseandroid.ui.activitys.recycleSelection.MultiRecyclerActivity;
 import com.application.idea.sourav.showcaseandroid.ui.base.BaseActivity;
 import com.application.idea.sourav.showcaseandroid.ui.customAdapters.ShowcaseAdapter;
@@ -62,7 +64,8 @@ public class ScrollingActivity extends BaseActivity
         showCaseActivityList.add(getCLListDTO(MultiRecyclerActivity.class));
         showCaseActivityList.add(getCLListDTO(InputStyleEditorActivity.class));
         showCaseActivityList.add(getCLListDTO(ScrollSelectorActivity.class));
-        showCaseActivityList.add(getCLListDTO(SimpleUiActivity.class));
+        showCaseActivityList.add(getCLListDTO(ProfileDetailsActivity.class));
+        showCaseActivityList.add(getCLListDTO(DrawableTestActivity.class));
 
     }
 

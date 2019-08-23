@@ -56,6 +56,13 @@
         <item name="android:windowBackground">@null</item>
         <!--<item name="android:windowTranslucentStatus">true</item>-->
     </style>
+    <style name="ProfileTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gray_700</item>
+        <item name="colorPrimaryDark">@color/gray_700</item>
+        <item name="colorAccent">@color/pure_black</item>
+        <item name="windowActionBar">false</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
 <style name="AboutTheme" parent="Theme.AppCompat.Light.NoActionBar">
     <item name="colorPrimary">@color/pure_white</item>
     <item name="colorPrimaryDark">@color/pure_white</item>

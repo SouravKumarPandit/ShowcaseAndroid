@@ -23,10 +23,10 @@
                 android:name=".ui.activitys.infoAbout.AboutActivity"
                 android:theme="@style/AboutTheme" />
         <activity
-                android:name=".ui.activitys.PofileActivity"
+                android:name=".ui.activitys.horizontalscroll.PofileActivity"
                 android:theme="@style/AppTheme.NoActionBarWhite" />
         <activity
-                android:name=".ui.activitys.HorizontalScrollActivity"
+                android:name=".ui.activitys.horizontalscroll.HorizontalScrollActivity"
                 android:theme="@style/AppTheme.NoActionBarWhite" />
 
         <activity
@@ -79,6 +79,9 @@
         <activity
                 android:name=".ui.activitys.inlineSelection.ScrollSelectorActivity"
                 android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+   <activity
+                android:name=".ui.activitys.profileDetails.ProfileDetailsActivity"
+                android:theme="@style/ProfileTheme" />
 
     </application>
 

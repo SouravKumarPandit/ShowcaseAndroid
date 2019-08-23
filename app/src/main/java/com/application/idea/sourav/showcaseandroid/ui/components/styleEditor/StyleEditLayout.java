@@ -768,8 +768,10 @@ public class StyleEditLayout extends RelativeLayout implements View.OnClickListe
         return spans.length > 0;
     }
 
-
-
+    public void setHtmlString(String htmlString) {
+//        getStyleEditView().setText(new SpannableString(htmlString));
+        getStyleEditView().setText(Html.fromHtml(htmlString));
+    }
 
 
     private class StyleEditText extends AppCompatEditText

@@ -172,10 +172,10 @@ public class Utils
 
         ///iColor
 
-        if (isDrawableIcon)
+//        if (isDrawableIcon)
             return getIcon(context, Integer.parseInt(sResourceId), iColor);
-        else
-            return FontIconUtil.getFontDrawable2(context, iSize, sResourceId, iColor);
+//        else
+//            return FontIconUtil.getFontDrawable2(context, iSize, sResourceId, iColor);
     }
 //    --------------------------------------------------------------------------------------------------------
 
@@ -747,6 +747,27 @@ public class Utils
             }
         };
         shape.getHeight();
+        return new ShapeDrawable(shape);
+    }
+    public static Drawable getcollapsdrawable(final Context clContext, int drawableRes, final int iTopPadding) {
+        final Drawable drawable = clContext.getResources().getDrawable(drawableRes);
+        Shape shape = new Shape() {
+            @Override
+            public void draw(Canvas canvas, Paint paint) {
+//                paint.setShader(new LinearGradient(0, 0, canvas.getWidth() / 2, getHeight(), 0xff9fa3fd, 0xff7475dc, Shader.TileMode.MIRROR));
+                int canvasWeight = canvas.getWidth();
+                int canvasHeight = canvas.getHeight()-iTopPadding;
+                paint.setColor(0x7B000000);
+                if (drawable != null)
+                    if (drawable instanceof BitmapDrawable) {
+                        Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
+
+                        bitmap = Bitmap.createScaledBitmap(bitmap, canvasHeight, canvasHeight, true);
+                        canvas.drawBitmap(bitmap, canvasWeight / 2 - canvasHeight / 2, iTopPadding, paint);
+                    }
+
+            }
+        };
         return new ShapeDrawable(shape);
     }
     /*public static Drawable getCurvedDrawable()
