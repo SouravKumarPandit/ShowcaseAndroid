@@ -239,14 +239,14 @@ public class ProfileDetailsActivity extends BaseActivity implements CLActionDial
         lLayoutCollapsing.setOrientation(LinearLayout.VERTICAL);
         lLayoutCollapsing.setGravity(Gravity.CENTER);
 //        lLayoutCollapsing.setBackground(Utils.getcollapsdrawable(this, R.drawable.crm_profile_bg, Utils.dpToPx(10)));
-        LinearLayout LinearLayout = new LinearLayout(clContext);
-        LinearLayout.setOrientation(LinearLayout.HORIZONTAL);
-        LinearLayout.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        LinearLayout.setGravity(Gravity.CENTER);
+        LinearLayout layout = new LinearLayout(clContext);
+        layout.setOrientation(LinearLayout.HORIZONTAL);
+        layout.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        layout.setGravity(Gravity.CENTER);
         if (!Utils.isTablet(this))
-            LinearLayout.setPadding(i20dp, i5dp, i5dp, i10dp);
+            layout.setPadding(i20dp, i5dp, i5dp, i10dp);
         else
-            LinearLayout.setPadding(i20dp, i10dp, i5dp, i15dp);
+            layout.setPadding(i20dp, i10dp, i5dp, i15dp);
 
 
         CircleImageView circleImageView = new CircleImageView(clContext);
@@ -264,7 +264,7 @@ public class ProfileDetailsActivity extends BaseActivity implements CLActionDial
         circleImageView.setBorderColor(getResources().getColor(R.color.blue_login2));
 
         LinearLayout rightLinearLayout = new LinearLayout(clContext);
-        rightLinearLayout.setOrientation(LinearLayout.VERTICAL);
+        rightLinearLayout.setOrientation(layout.VERTICAL);
         rightLinearLayout.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
         if (!Utils.isTablet(this)) {
@@ -316,9 +316,9 @@ public class ProfileDetailsActivity extends BaseActivity implements CLActionDial
         rightLinearLayout.addView(tvUserDesignation);
 
 
-        LinearLayout.addView(circleImageView);
-        LinearLayout.addView(rightLinearLayout);
-        lLayoutCollapsing.addView(LinearLayout);
+        layout.addView(circleImageView);
+        layout.addView(rightLinearLayout);
+        lLayoutCollapsing.addView(layout);
         lLayoutCollapsing.addView(tvLastSeen);
         return lLayoutCollapsing;
     }
