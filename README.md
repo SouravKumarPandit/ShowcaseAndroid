@@ -2,7 +2,7 @@
 
 Collection of pixel perfect ui. Inspired from Dribble bench, etc.I want't to push the limit of design and ui implementation .
 --I think limit is your imagination .-- 
-Layout is desigin with <strong>java and kotlin code without using XML<\strong>
+Layout is desigin with <strong>java and kotlin code without using XML<strong>
 Please give star if you Like (means alot)
 ## Screenshots
 
